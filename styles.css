@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#animal-photos{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: fit-content;            
+    padding:1rem;
+    background-color: rgb(3, 59, 27);
+    color: #ffff;
+    border-radius: 8px;
+    align-items: center;
+}
+.photo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+img {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+}
